@@ -1,0 +1,662 @@
+$date
+	Sun Feb 11 18:32:47 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module MemoryUnit_tb $end
+$var wire 4 ! data_out [3:0] $end
+$var reg 4 " address [3:0] $end
+$var reg 4 # data_in [3:0] $end
+$var reg 1 $ write_enable $end
+$scope module u1 $end
+$var wire 4 % address [3:0] $end
+$var wire 4 & data_in [3:0] $end
+$var wire 4 ' data_out [3:0] $end
+$var wire 16 ( select_line [15:0] $end
+$var wire 1 ) write_enable $end
+$scope module myDecoder $end
+$var wire 4 * address [3:0] $end
+$var wire 16 + select_line [15:0] $end
+$upscope $end
+$scope module DFF0_0 $end
+$var wire 1 , D $end
+$var wire 1 - clk $end
+$var reg 1 . Q $end
+$upscope $end
+$scope module DFF0_1 $end
+$var wire 1 / D $end
+$var wire 1 0 clk $end
+$var reg 1 1 Q $end
+$upscope $end
+$scope module DFF0_2 $end
+$var wire 1 2 D $end
+$var wire 1 3 clk $end
+$var reg 1 4 Q $end
+$upscope $end
+$scope module DFF0_3 $end
+$var wire 1 5 D $end
+$var wire 1 6 clk $end
+$var reg 1 7 Q $end
+$upscope $end
+$scope module DFF1_0 $end
+$var wire 1 8 D $end
+$var wire 1 9 clk $end
+$var reg 1 : Q $end
+$upscope $end
+$scope module DFF1_1 $end
+$var wire 1 ; D $end
+$var wire 1 < clk $end
+$var reg 1 = Q $end
+$upscope $end
+$scope module DFF1_2 $end
+$var wire 1 > D $end
+$var wire 1 ? clk $end
+$var reg 1 @ Q $end
+$upscope $end
+$scope module DFF1_3 $end
+$var wire 1 A D $end
+$var wire 1 B clk $end
+$var reg 1 C Q $end
+$upscope $end
+$scope module DFF2_0 $end
+$var wire 1 D D $end
+$var wire 1 E clk $end
+$var reg 1 F Q $end
+$upscope $end
+$scope module DFF2_1 $end
+$var wire 1 G D $end
+$var wire 1 H clk $end
+$var reg 1 I Q $end
+$upscope $end
+$scope module DFF2_2 $end
+$var wire 1 J D $end
+$var wire 1 K clk $end
+$var reg 1 L Q $end
+$upscope $end
+$scope module DFF2_3 $end
+$var wire 1 M D $end
+$var wire 1 N clk $end
+$var reg 1 O Q $end
+$upscope $end
+$scope module DFF3_0 $end
+$var wire 1 P D $end
+$var wire 1 Q clk $end
+$var reg 1 R Q $end
+$upscope $end
+$scope module DFF3_1 $end
+$var wire 1 S D $end
+$var wire 1 T clk $end
+$var reg 1 U Q $end
+$upscope $end
+$scope module DFF3_2 $end
+$var wire 1 V D $end
+$var wire 1 W clk $end
+$var reg 1 X Q $end
+$upscope $end
+$scope module DFF3_3 $end
+$var wire 1 Y D $end
+$var wire 1 Z clk $end
+$var reg 1 [ Q $end
+$upscope $end
+$scope module DFF4_0 $end
+$var wire 1 \ D $end
+$var wire 1 ] clk $end
+$var reg 1 ^ Q $end
+$upscope $end
+$scope module DFF4_1 $end
+$var wire 1 _ D $end
+$var wire 1 ` clk $end
+$var reg 1 a Q $end
+$upscope $end
+$scope module DFF4_2 $end
+$var wire 1 b D $end
+$var wire 1 c clk $end
+$var reg 1 d Q $end
+$upscope $end
+$scope module DFF4_3 $end
+$var wire 1 e D $end
+$var wire 1 f clk $end
+$var reg 1 g Q $end
+$upscope $end
+$scope module DFF5_0 $end
+$var wire 1 h D $end
+$var wire 1 i clk $end
+$var reg 1 j Q $end
+$upscope $end
+$scope module DFF5_1 $end
+$var wire 1 k D $end
+$var wire 1 l clk $end
+$var reg 1 m Q $end
+$upscope $end
+$scope module DFF5_2 $end
+$var wire 1 n D $end
+$var wire 1 o clk $end
+$var reg 1 p Q $end
+$upscope $end
+$scope module DFF5_3 $end
+$var wire 1 q D $end
+$var wire 1 r clk $end
+$var reg 1 s Q $end
+$upscope $end
+$scope module DFF6_0 $end
+$var wire 1 t D $end
+$var wire 1 u clk $end
+$var reg 1 v Q $end
+$upscope $end
+$scope module DFF6_1 $end
+$var wire 1 w D $end
+$var wire 1 x clk $end
+$var reg 1 y Q $end
+$upscope $end
+$scope module DFF6_2 $end
+$var wire 1 z D $end
+$var wire 1 { clk $end
+$var reg 1 | Q $end
+$upscope $end
+$scope module DFF6_3 $end
+$var wire 1 } D $end
+$var wire 1 ~ clk $end
+$var reg 1 !" Q $end
+$upscope $end
+$scope module DFF7_0 $end
+$var wire 1 "" D $end
+$var wire 1 #" clk $end
+$var reg 1 $" Q $end
+$upscope $end
+$scope module DFF7_1 $end
+$var wire 1 %" D $end
+$var wire 1 &" clk $end
+$var reg 1 '" Q $end
+$upscope $end
+$scope module DFF7_2 $end
+$var wire 1 (" D $end
+$var wire 1 )" clk $end
+$var reg 1 *" Q $end
+$upscope $end
+$scope module DFF7_3 $end
+$var wire 1 +" D $end
+$var wire 1 ," clk $end
+$var reg 1 -" Q $end
+$upscope $end
+$scope module DFF8_0 $end
+$var wire 1 ." D $end
+$var wire 1 /" clk $end
+$var reg 1 0" Q $end
+$upscope $end
+$scope module DFF8_1 $end
+$var wire 1 1" D $end
+$var wire 1 2" clk $end
+$var reg 1 3" Q $end
+$upscope $end
+$scope module DFF8_2 $end
+$var wire 1 4" D $end
+$var wire 1 5" clk $end
+$var reg 1 6" Q $end
+$upscope $end
+$scope module DFF8_3 $end
+$var wire 1 7" D $end
+$var wire 1 8" clk $end
+$var reg 1 9" Q $end
+$upscope $end
+$scope module DFF9_0 $end
+$var wire 1 :" D $end
+$var wire 1 ;" clk $end
+$var reg 1 <" Q $end
+$upscope $end
+$scope module DFF9_1 $end
+$var wire 1 =" D $end
+$var wire 1 >" clk $end
+$var reg 1 ?" Q $end
+$upscope $end
+$scope module DFF9_2 $end
+$var wire 1 @" D $end
+$var wire 1 A" clk $end
+$var reg 1 B" Q $end
+$upscope $end
+$scope module DFF9_3 $end
+$var wire 1 C" D $end
+$var wire 1 D" clk $end
+$var reg 1 E" Q $end
+$upscope $end
+$scope module DFF10_0 $end
+$var wire 1 F" D $end
+$var wire 1 G" clk $end
+$var reg 1 H" Q $end
+$upscope $end
+$scope module DFF10_1 $end
+$var wire 1 I" D $end
+$var wire 1 J" clk $end
+$var reg 1 K" Q $end
+$upscope $end
+$scope module DFF10_2 $end
+$var wire 1 L" D $end
+$var wire 1 M" clk $end
+$var reg 1 N" Q $end
+$upscope $end
+$scope module DFF10_3 $end
+$var wire 1 O" D $end
+$var wire 1 P" clk $end
+$var reg 1 Q" Q $end
+$upscope $end
+$scope module DFF11_0 $end
+$var wire 1 R" D $end
+$var wire 1 S" clk $end
+$var reg 1 T" Q $end
+$upscope $end
+$scope module DFF11_1 $end
+$var wire 1 U" D $end
+$var wire 1 V" clk $end
+$var reg 1 W" Q $end
+$upscope $end
+$scope module DFF11_2 $end
+$var wire 1 X" D $end
+$var wire 1 Y" clk $end
+$var reg 1 Z" Q $end
+$upscope $end
+$scope module DFF11_3 $end
+$var wire 1 [" D $end
+$var wire 1 \" clk $end
+$var reg 1 ]" Q $end
+$upscope $end
+$scope module DFF12_0 $end
+$var wire 1 ^" D $end
+$var wire 1 _" clk $end
+$var reg 1 `" Q $end
+$upscope $end
+$scope module DFF12_1 $end
+$var wire 1 a" D $end
+$var wire 1 b" clk $end
+$var reg 1 c" Q $end
+$upscope $end
+$scope module DFF12_2 $end
+$var wire 1 d" D $end
+$var wire 1 e" clk $end
+$var reg 1 f" Q $end
+$upscope $end
+$scope module DFF12_3 $end
+$var wire 1 g" D $end
+$var wire 1 h" clk $end
+$var reg 1 i" Q $end
+$upscope $end
+$scope module DFF13_0 $end
+$var wire 1 j" D $end
+$var wire 1 k" clk $end
+$var reg 1 l" Q $end
+$upscope $end
+$scope module DFF13_1 $end
+$var wire 1 m" D $end
+$var wire 1 n" clk $end
+$var reg 1 o" Q $end
+$upscope $end
+$scope module DFF13_2 $end
+$var wire 1 p" D $end
+$var wire 1 q" clk $end
+$var reg 1 r" Q $end
+$upscope $end
+$scope module DFF13_3 $end
+$var wire 1 s" D $end
+$var wire 1 t" clk $end
+$var reg 1 u" Q $end
+$upscope $end
+$scope module DFF14_0 $end
+$var wire 1 v" D $end
+$var wire 1 w" clk $end
+$var reg 1 x" Q $end
+$upscope $end
+$scope module DFF14_1 $end
+$var wire 1 y" D $end
+$var wire 1 z" clk $end
+$var reg 1 {" Q $end
+$upscope $end
+$scope module DFF14_2 $end
+$var wire 1 |" D $end
+$var wire 1 }" clk $end
+$var reg 1 ~" Q $end
+$upscope $end
+$scope module DFF14_3 $end
+$var wire 1 !# D $end
+$var wire 1 "# clk $end
+$var reg 1 ## Q $end
+$upscope $end
+$scope module DFF15_0 $end
+$var wire 1 $# D $end
+$var wire 1 %# clk $end
+$var reg 1 &# Q $end
+$upscope $end
+$scope module DFF15_1 $end
+$var wire 1 '# D $end
+$var wire 1 (# clk $end
+$var reg 1 )# Q $end
+$upscope $end
+$scope module DFF15_2 $end
+$var wire 1 *# D $end
+$var wire 1 +# clk $end
+$var reg 1 ,# Q $end
+$upscope $end
+$scope module DFF15_3 $end
+$var wire 1 -# D $end
+$var wire 1 .# clk $end
+$var reg 1 /# Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x/#
+0.#
+1-#
+x,#
+0+#
+0*#
+x)#
+0(#
+1'#
+x&#
+0%#
+0$#
+x##
+0"#
+1!#
+x~"
+0}"
+0|"
+x{"
+0z"
+1y"
+xx"
+0w"
+0v"
+xu"
+0t"
+1s"
+xr"
+0q"
+0p"
+xo"
+0n"
+1m"
+xl"
+0k"
+0j"
+xi"
+0h"
+1g"
+xf"
+0e"
+0d"
+xc"
+0b"
+1a"
+x`"
+0_"
+0^"
+x]"
+0\"
+1["
+xZ"
+0Y"
+0X"
+xW"
+0V"
+1U"
+xT"
+0S"
+0R"
+xQ"
+0P"
+1O"
+xN"
+0M"
+0L"
+xK"
+0J"
+1I"
+xH"
+0G"
+0F"
+xE"
+0D"
+1C"
+xB"
+0A"
+0@"
+x?"
+0>"
+1="
+x<"
+0;"
+0:"
+x9"
+08"
+17"
+x6"
+05"
+04"
+x3"
+02"
+11"
+x0"
+0/"
+0."
+x-"
+0,"
+1+"
+x*"
+0)"
+0("
+x'"
+0&"
+1%"
+x$"
+0#"
+0""
+x!"
+0~
+1}
+x|
+0{
+0z
+xy
+0x
+1w
+xv
+0u
+0t
+xs
+0r
+1q
+xp
+0o
+0n
+xm
+0l
+1k
+xj
+0i
+0h
+xg
+0f
+1e
+xd
+0c
+0b
+xa
+0`
+1_
+x^
+0]
+0\
+x[
+0Z
+1Y
+xX
+0W
+0V
+xU
+0T
+1S
+xR
+0Q
+0P
+xO
+0N
+1M
+xL
+0K
+0J
+xI
+0H
+1G
+xF
+0E
+0D
+xC
+0B
+1A
+x@
+0?
+0>
+x=
+0<
+1;
+x:
+09
+08
+17
+16
+15
+04
+13
+02
+11
+10
+1/
+0.
+1-
+0,
+b1 +
+b0 *
+1)
+b1 (
+b1010 '
+b1010 &
+b0 %
+1$
+b1010 #
+b0 "
+b1010 !
+$end
+#10
+0C
+1@
+0=
+1:
+b101 !
+b101 '
+1B
+1?
+1<
+19
+06
+03
+00
+0-
+1,
+0/
+12
+05
+18
+0;
+1>
+0A
+1D
+0G
+1J
+0M
+1P
+0S
+1V
+0Y
+1\
+0_
+1b
+0e
+1h
+0k
+1n
+0q
+1t
+0w
+1z
+0}
+1""
+0%"
+1("
+0+"
+1."
+01"
+14"
+07"
+1:"
+0="
+1@"
+0C"
+1F"
+0I"
+1L"
+0O"
+1R"
+0U"
+1X"
+0["
+1^"
+0a"
+1d"
+0g"
+1j"
+0m"
+1p"
+0s"
+1v"
+0y"
+1|"
+0!#
+1$#
+0'#
+1*#
+0-#
+b10 (
+b10 +
+b101 #
+b101 &
+b1 "
+b1 %
+b1 *
+#20
+b1010 !
+b1010 '
+09
+0<
+0?
+0B
+b1 (
+b1 +
+0$
+0)
+b0 "
+b0 %
+b0 *
+#30
+b101 !
+b101 '
+b10 (
+b10 +
+b1 "
+b1 %
+b1 *
+#40
