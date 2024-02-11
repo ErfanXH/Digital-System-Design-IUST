@@ -1,0 +1,74 @@
+$date
+	Sun Feb 11 17:22:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module MUX2X1_tb $end
+$var wire 1 ! Y $end
+$var reg 1 " D0 $end
+$var reg 1 # D1 $end
+$var reg 1 $ S $end
+$scope module MUX2X1_inst $end
+$var wire 1 % D0 $end
+$var wire 1 & D1 $end
+$var wire 1 ' S $end
+$var wire 1 ! Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#10
+0!
+0$
+0'
+0#
+0&
+0"
+0%
+#20
+1$
+1'
+#30
+0$
+0'
+1#
+1&
+#40
+1!
+1$
+1'
+#50
+1!
+0$
+0'
+0#
+0&
+1"
+1%
+#60
+0!
+1$
+1'
+#70
+1!
+0$
+0'
+1#
+1&
+#80
+1$
+1'
+#90

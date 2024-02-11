@@ -1,0 +1,71 @@
+#! /c/iverilog/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_011084D0 .scope module, "MUX2X1_tb" "MUX2X1_tb" 2 3;
+ .timescale 0 0;
+v0110EBC0_0 .var "D0", 0 0;
+v0110EC18_0 .var "D1", 0 0;
+v0110EC70_0 .var "S", 0 0;
+v0110ECC8_0 .net "Y", 0 0, L_01050C90; 1 drivers
+S_011034A0 .scope module, "MUX2X1_inst" "MUX2X1" 2 10, 3 1, S_011084D0;
+ .timescale 0 0;
+L_0110ED20 .functor NOT 1, v0110EC70_0, C4<0>, C4<0>, C4<0>;
+L_0110ED90 .functor AND 1, v0110EBC0_0, L_0110ED20, C4<1>, C4<1>;
+L_0110EE38 .functor AND 1, v0110EC18_0, v0110EC70_0, C4<1>, C4<1>;
+L_01050C90 .functor OR 1, L_0110ED90, L_0110EE38, C4<0>, C4<0>;
+v01103528_0 .net "D0", 0 0, v0110EBC0_0; 1 drivers
+v01103580_0 .net "D1", 0 0, v0110EC18_0; 1 drivers
+v01103E28_0 .net "S", 0 0, v0110EC70_0; 1 drivers
+v01103E80_0 .alias "Y", 0 0, v0110ECC8_0;
+v01103ED8_0 .net *"_s0", 0 0, L_0110ED20; 1 drivers
+v01103F30_0 .net *"_s2", 0 0, L_0110ED90; 1 drivers
+v0110EB68_0 .net *"_s4", 0 0, L_0110EE38; 1 drivers
+    .scope S_011084D0;
+T_0 ;
+    %vpi_call 2 18 "$dumpfile", "MUX2X1_tb.vcd";
+    %vpi_call 2 19 "$dumpvars", 1'sb0, S_011084D0;
+    %delay 10, 0;
+    %set/v v0110EBC0_0, 0, 1;
+    %set/v v0110EC18_0, 0, 1;
+    %set/v v0110EC70_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0110EBC0_0, 0, 1;
+    %set/v v0110EC18_0, 0, 1;
+    %set/v v0110EC70_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0110EBC0_0, 0, 1;
+    %set/v v0110EC18_0, 1, 1;
+    %set/v v0110EC70_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0110EBC0_0, 0, 1;
+    %set/v v0110EC18_0, 1, 1;
+    %set/v v0110EC70_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0110EBC0_0, 1, 1;
+    %set/v v0110EC18_0, 0, 1;
+    %set/v v0110EC70_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0110EBC0_0, 1, 1;
+    %set/v v0110EC18_0, 0, 1;
+    %set/v v0110EC70_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0110EBC0_0, 1, 1;
+    %set/v v0110EC18_0, 1, 1;
+    %set/v v0110EC70_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0110EBC0_0, 1, 1;
+    %set/v v0110EC18_0, 1, 1;
+    %set/v v0110EC70_0, 1, 1;
+    %delay 10, 0;
+    %vpi_call 2 28 "$finish";
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "MUX2x1_tb.v";
+    "./MUX2X1.v";
